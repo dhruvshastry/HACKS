@@ -1,0 +1,54 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there!","Is anyone there?",
+                  "Hey!","Hola", "Hello!"],
+     "responses": ["Hello!", "Good to see you.", 
+                   "Hi there, how can I help?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye.", "See you later!", "Goodbye!", 
+                  "Nice chatting to you, bye.", "Till next time!!"],
+     "responses": ["See you!", "Have a nice day.", "Bye! Come back again soon."]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks!", "Thank you", "That's helpful", 
+                  "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure."]
+    },
+    {"tag": "noanswer",
+     "patterns": [""],
+     "responses": ["Sorry, can't understand you", "Please give me more info", 
+                   "Not sure I understand"]
+    },
+    {"tag": "options",
+     "patterns": [ "What can you do?", "What help you provide?", 
+                  "How you can be helpful?", "What support is offered"],
+     "responses": ["I am your healthcare assistant. Please Provide me your symptoms so I can diagnose your condition"]
+    },
+    {"tag": "Allergies",
+        "patterns": ["Puffy, watery eyes"," Eye irritation"],
+        "responses": ["According to my diagnoses you may have consumed or inhaled allergens. I recommend using Eye drops. Please contact an allergist and clinical immunologist near you. "]
+    },
+    {"tag": "Allergies1",
+        "patterns":["Itchiness","Rashes"],
+        "responses":["According to my diagnoses you may have consumed or inhaled allergens. I recommend using Antihistamines such as benadryl. Please contact an allergist and clinical immunologist near you. ",
+        "According to my diagnoses you may have consumed or inhaled allergens. I recommend using Hydrocortisone creams like Cortizone. Please contact an allergist and clinical immunologist near you."]
+    },
+    {"tag": "Cold and flu",
+        "patterns": ["Fever","Runny Nose","Sore throat", "Cough"],
+        "responses": ["According to my diagnoses you may have influenza virus or common cold virus. I recommend using DOLO 650 or Paracetamol. Please contact a General Physician near you."]
+    },
+   
+    {"tag": "Conjunctivitis",
+            "patterns": ["Pink eyes, burning eyes"],
+            "responses": ["According to my diagnoses you may have conjunctivitis. I recommend using aintibiotic eye drops and regularly wash your hands. Please contact an optometrist near you. "]},
+     
+    {"tag": "Diarrhea",
+        "patterns": ["Loose stools","Frequent bowl movements"],
+        "responses": ["According to my diagnoses this may have been caused due to bacterial or viral infection-Diarrhea. I recommend avoiding foods that are milk based, avoid caffeine and try eating liquid food. Please contact a gastroenterologist near you."]},
+
+    {"tag": "Headaches",
+        "patterns": ["Severe pain on either sides of the head.","Nausea"],
+        "responses": ["According to my diagnoses, you may have a headache. I recommend using a ice pack on your foreheads and sleeping."]}         
+]}
+
